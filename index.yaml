@@ -9,6 +9,6 @@ entries:
     name: celebrate-deployment
     type: application
     urls:
-    - https://omarsh1996.github.io/celebrate-deployment-0.1.0.tgz
+    - https://omarsh1996.github.io/celebrate-deployment/celebrate-deployment-0.1.0.tgz
     version: 0.1.0
 generated: "2023-10-16T13:45:59.288967+02:00"
