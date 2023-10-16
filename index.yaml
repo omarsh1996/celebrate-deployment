@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  celebrate-deployment:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-10-16T13:45:59.289946+02:00"
+    description: A Helm chart for Kubernetes
+    digest: cd568a3a08af84f674beb40c63022fb30031730400101eb203239476f1eb8706
+    name: celebrate-deployment
+    type: application
+    urls:
+    - https://omarsh1996.github.io/helm-chart/celebrate-deployment-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-10-16T13:45:59.288967+02:00"
