@@ -9,7 +9,7 @@ appName: app1-nginx-deployment
 baseDomain: dev.kartenmacherei.de
 image:
   repository: 123567778292.dkr.ecr.eu-central-1.amazonaws.com/k8s-example-app:1.0
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
 
