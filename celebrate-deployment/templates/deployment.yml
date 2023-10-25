@@ -18,6 +18,10 @@ spec:
         - name:  {{ .Values.appName }}-container
           image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
           imagePullPolicy: {{ .Values.image.pullPolicy }}
+          envFrom:
+            - secretRef:
+                name: {{ .Values.appName }}-secret
+
           ports:
             - containerPort: 80
 
